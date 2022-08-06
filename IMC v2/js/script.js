@@ -11,7 +11,6 @@ function start() {
 }
 
 function calculateImc(weight, height) {
-<<<<<<< HEAD
   var imc = weight / (height * height);
 
   const result = document.getElementById('result');
@@ -42,9 +41,6 @@ function calculateImc(weight, height) {
     document.getElementById('result').innerHTML = 'Inválido';
   }
   return imc;
-=======
-  return weight / (height * height);
->>>>>>> d08a6d1d1bd05088661aef35e6421e65d76cd6b8
 }
 
 function handleButtonClick() {
