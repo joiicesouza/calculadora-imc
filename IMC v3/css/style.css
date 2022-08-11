@@ -1,0 +1,56 @@
+body {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/img/capa.jpg);
+}
+
+h1 {
+  background-color: whitesmoke;
+  color: #404269;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  opacity: 0.9;
+}
+
+h2 {
+  color: #575881;
+}
+
+main {
+  background-color: whitesmoke;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  border: 3px solid #404269;
+  opacity: 0.9;
+}
+
+#paragraph-result {
+  color: #404269;
+  margin-top: 20px;
+}
+
+#paragraph-classif {
+  color: #404269;
+}
+
+input {
+  text-align: center;
+  background-color: #9b9bc8;
+  color: black;
+  border: 2px solid #404269;
+  width: 150px;
+  margin-top: 20px;
+}
+
+#button-calculate-imc {
+  background-color: #9b9bc8;
+  color: black;
+  padding: 5px;
+  border: 2px solid #404269;
+  width: 100px;
+  cursor: pointer;
+}
